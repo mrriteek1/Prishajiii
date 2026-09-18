@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Prisha's Special Greeting Gallery ❤️</title>
   
-  <!-- Google Fonts for Luxury & Romance -->
+  <!-- Romantic Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <!-- Fullscreen Heart Loader -->
+  <!-- Fullscreen Heart-Shaped Loader -->
   <div id="loader" class="loader-wrapper">
     <div class="heart-loader">
       <div class="beating-heart"></div>
@@ -22,7 +22,7 @@
     </div>
   </div>
 
-  <!-- Animated Canvas Background (Hearts & Sparkles) -->
+  <!-- Floating Hearts & Sparkles Canvas Background -->
   <canvas id="particleCanvas"></canvas>
 
   <!-- Ambient Glow Blobs -->
@@ -30,7 +30,7 @@
   <div class="glow-orb orb-2"></div>
   <div class="glow-orb orb-3"></div>
 
-  <!-- Floating Audio Control -->
+  <!-- Floating Music Toggle Button -->
   <button id="musicToggle" class="music-pill" aria-label="Toggle Romantic Music">
     <span class="music-icon">🎵</span>
     <span class="music-label">Play Melody</span>
@@ -64,12 +64,12 @@
     <section class="quote-container glass-card">
       <div class="quote-mark">“</div>
       <div class="quote-slider" id="quoteSlider">
-        <!-- Injected via JavaScript -->
+        <!-- Quotes will be inserted by script.js -->
       </div>
       <div class="slider-dots" id="quoteDots"></div>
     </section>
 
-    <!-- Greeting Cards Gallery -->
+    <!-- Greeting Card Gallery Section -->
     <section id="gallery" class="gallery-section">
       <div class="section-header">
         <span class="sub-badge">Handpicked Moments</span>
@@ -77,17 +77,17 @@
       </div>
 
       <div class="card-grid">
-        <!-- Card 1 -->
-        <div class="greeting-card glass-card" data-title="A Smile That Lights The World" data-img="1.jpg">
+        <!-- Card 1: 1.jpg -->
+        <div class="greeting-card glass-card" data-title="Special Wishes For Prisha ❤️" data-img="1.jpg">
           <div class="card-img-wrapper">
-            <img src="1.jpg" alt="Greeting Card 1 for Prisha" onerror="this.src='https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=800&q=80'" />
+            <img src="1.jpg" alt="Special Wishes For Prisha" />
             <div class="card-heart-badge">❤️</div>
             <div class="card-overlay"></div>
           </div>
           <div class="card-content">
             <span class="card-date">Chapter 01</span>
-            <h3 class="card-heading">Endless Sunshine</h3>
-            <p class="card-desc">Every moment feels like magic when you are near.</p>
+            <h3 class="card-heading">Special Wishes</h3>
+            <p class="card-desc">Beautiful Mind, Beautiful Soul, Beautiful You ✨</p>
             <button class="btn btn-card open-modal-btn">
               <span>View Card</span>
               <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
@@ -95,17 +95,17 @@
           </div>
         </div>
 
-        <!-- Card 2 -->
-        <div class="greeting-card glass-card" data-title="Grace & Elegance" data-img="2.jpg">
+        <!-- Card 2: 2.jpg -->
+        <div class="greeting-card glass-card" data-title="Don & Don - Same Girl Different Vibes ✨" data-img="2.jpg">
           <div class="card-img-wrapper">
-            <img src="2.jpg" alt="Greeting Card 2 for Prisha" onerror="this.src='https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80'" />
-            <div class="card-heart-badge">❤️</div>
+            <img src="2.jpg" alt="Don and Don Prisha" />
+            <div class="card-heart-badge">👑</div>
             <div class="card-overlay"></div>
           </div>
           <div class="card-content">
             <span class="card-date">Chapter 02</span>
-            <h3 class="card-heading">Starlight Wonder</h3>
-            <p class="card-desc">Your laughter makes the whole universe feel lighter.</p>
+            <h3 class="card-heading">Different Vibes</h3>
+            <p class="card-desc">Real, Natural, Beautiful, Unique & Always Me 🌸</p>
             <button class="btn btn-card open-modal-btn">
               <span>View Card</span>
               <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
@@ -113,17 +113,17 @@
           </div>
         </div>
 
-        <!-- Card 3 -->
-        <div class="greeting-card glass-card" data-title="Sweetest Melodies" data-img="3.jpg">
+        <!-- Card 3: 3.jpg -->
+        <div class="greeting-card glass-card" data-title="Big Dreams, Don Attitude 👑" data-img="3.jpg">
           <div class="card-img-wrapper">
-            <img src="3.jpg" alt="Greeting Card 3 for Prisha" onerror="this.src='https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=800&q=80'" />
-            <div class="card-heart-badge">❤️</div>
+            <img src="3.jpg" alt="DAV School Gaya Don Prisha" />
+            <div class="card-heart-badge">💖</div>
             <div class="card-overlay"></div>
           </div>
           <div class="card-content">
             <span class="card-date">Chapter 03</span>
-            <h3 class="card-heading">Pure Poetry</h3>
-            <p class="card-desc">No words could ever completely capture how special you are.</p>
+            <h3 class="card-heading">Don Attitude</h3>
+            <p class="card-desc">DAV School Gaya Ki Don — Big Dreams & Bright Future 💫</p>
             <button class="btn btn-card open-modal-btn">
               <span>View Card</span>
               <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
@@ -131,17 +131,17 @@
           </div>
         </div>
 
-        <!-- Card 4 -->
-        <div class="greeting-card glass-card" data-title="Forever & Always" data-img="4.jpg">
+        <!-- Card 4: 4.jpg -->
+        <div class="greeting-card glass-card" data-title="Always Special Prisha 🌷" data-img="4.jpg">
           <div class="card-img-wrapper">
-            <img src="4.jpg" alt="Greeting Card 4 for Prisha" onerror="this.src='https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=800&q=80'" />
+            <img src="4.jpg" alt="Always Special Prisha" />
             <div class="card-heart-badge">❤️</div>
             <div class="card-overlay"></div>
           </div>
           <div class="card-content">
             <span class="card-date">Chapter 04</span>
-            <h3 class="card-heading">Unconditional</h3>
-            <p class="card-desc">Cherishing today, tomorrow, and every tomorrow after.</p>
+            <h3 class="card-heading">Stay Blessed</h3>
+            <p class="card-desc">Cute But Powerful — You Are Always Special 🌷</p>
             <button class="btn btn-card open-modal-btn">
               <span>View Card</span>
               <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
@@ -151,7 +151,7 @@
       </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Animated Footer -->
     <footer class="romantic-footer">
       <div class="footer-heart-wave">
         <span>❤️</span><span>✨</span><span>🌸</span><span>✨</span><span>❤️</span>
@@ -162,7 +162,7 @@
 
   </div>
 
-  <!-- Fullscreen Zoom Lightbox Modal -->
+  <!-- Fullscreen Modal with Zoom -->
   <div id="imageModal" class="image-modal" aria-hidden="true" role="dialog">
     <div class="modal-backdrop"></div>
     <div class="modal-dialog">
